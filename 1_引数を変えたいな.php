@@ -1,15 +1,17 @@
 <?php
 //////////////////////////////
-// Text Object
+// 引数を変えたいな
+// Search
 //////////////////////////////
 
-function someFunc(string $param): string
+function someFunc($param): string
 {
     return $param . " desu";
 }
 //CURSOR
 
-function anotherFunc(string $changeMe): string
+// 引数を$nameに変えたい
+function anotherFunc($changeMe): string
 {
     return $changeMe . " dayo";
 }
